@@ -1882,19 +1882,3 @@ ifneq ($(filter CORVUSHD,$(MACHINES)),)
 MACHINEOBJS += $(MACHINEOBJ)/corvushd.o
 endif
 
-#-------------------------------------------------
-#
-#@src/emu/machine/wozfdc.h,MACHINES += WOZFDC
-#-------------------------------------------------
-ifneq ($(filter WOZFDC,$(MACHINES)),)
-MACHINEOBJS += $(MACHINEOBJ)/wozfdc.o
-endif
-
-#-------------------------------------------------
-#
-#@src/emu/machine/diablo_hd.h,MACHINES += DIABLO_HD
-#-------------------------------------------------
-ifneq ($(filter DIABLO_HD,$(MACHINES)),)
-MACHINEOBJS += $(MACHINEOBJ)/diablo_hd.o
-endif
-

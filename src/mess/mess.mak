@@ -550,8 +550,6 @@ MACHINES += HDC9234
 MACHINES += TI99_HD
 MACHINES += STRATA
 MACHINES += CORVUSHD
-MACHINES += WOZFDC
-MACHINES += DIABLO_HD
 
 #-------------------------------------------------
 # specify available bus cores
