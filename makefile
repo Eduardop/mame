@@ -24,7 +24,7 @@
 #-------------------------------------------------
 
 ifndef TARGET
-TARGET = mame
+TARGET = mess
 endif
 
 ifndef SUBTARGET
@@ -197,7 +197,7 @@ endif
 
 # uncomment next line to build using unix-style libsdl on Mac OS X
 # (vs. the native framework port).  Normal users should not enable this.
-# MACOSX_USE_LIBSDL = 1
+MACOSX_USE_LIBSDL = 1
 
 # uncomment and specify path to cppcheck executable to perform
 # static code analysis during compilation
